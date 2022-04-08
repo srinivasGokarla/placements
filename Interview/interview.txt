@@ -1,0 +1,91 @@
+1. how to add comments on css?
+
+/* This is a single-line comment */
+
+2. Why do we use pseudo-class?
+
+  A pseudo-class is used to define a special state of an element.
+  For example, it can be used to: Style an element when a user mouses over it.
+  Style visited and unvisited links differently.
+
+3.How is specificity applied?
+
+Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and,
+ therefore, will be applied. Specificity is based on the matching rules which are composed of different sorts of CSS selectors.
+
+ 4. What method allows an element to be moved from its current position?
+
+ The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky)
+
+ 5.what properties does flex model have?
+
+ The flex property sets the flexible length on flexible items. Note: If the element is not a flexible item, the flex property has no effect.
+...
+The flex property is a shorthand property for:
+flex-grow.
+flex-shrink.
+flex-basis.
+
+6. What is the difference between flex and grids?
+
+-> Grid is made for two-dimensional layout, while flexbox is for one. The means flexbox work on either row or columns at a time, but grids can  works on both.
+-> Flexbox, gives you more flexibility while working on either element. Grid give you more flexibility move around the blocks irrespective of your HTML markup.
+-> The flexbox layout is best suited to application components and small scall layout is designed for larger scale layouts that are not linear in design.
+
+7. Give an example where we have to use grids and where you have to use flexbox?
+
+  If you are using flexbox and find yourself disabling some of the flexibility, you probably need to use CSS Grid Layout. An example would be if you are setting a percentage width on a flex item to make it line up with other items in a row above. In that case, a grid is likely to be a better choice.
+
+8. Give an example where you cannot use flexbox, and you can only use grids?
+
+Grid is made for two-dimensional layout, while flexbox is for one. The means flexbox work on either row or columns at a time, but grids can  works on both.
+
+9. What are combinators? give examples of how you can use them ?
+
+The final selectors we will look at are called combinators, because they combine other selectors in a way that gives them a useful relationship to each other and the location of content in the document.
+descendant combinator(“ “), child combinator (>),adjacent sibling selector (+), general sibling combinator (~).
+
+10. What does object-fit do?
+
+The object-fit CSS property sets how the content of a replaced element, such as an <img> or <video> , should be resized to fit its container. You can alter the alignment of the replaced element's content object within the element's box using the object-position property.
+
+11. What does rotate do?
+
+The rotate() CSS function defines a transformation that rotates an element around a fixed point on the 2D plane, without deforming it. Its result is a <transform-function> data type. The fixed point that the element rotates around — mentioned above — is also known as the transform origin.
+
+12. What rule can be used to define animations ? 
+
+The animation shorthand CSS property applies an animation between styles. It is a shorthand for animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction, animation-fill-mode, and animation-play-state.
+he animation property is specified as one or more single animations, separated by commas.
+
+13. When working with attribute selectors, how can you select elements which contain a particular attribute value?
+
+he [attribute|="value"] selector is used to select elements with the specified attribute, whose value can be exactly the specified value, or the specified value followed by a hyphen (-). Note: The value has to be a whole word, either alone, like class="top", or followed by a hyphen( - ), like class="top-text".
+
+14 What does @media do?
+
+The @media rule is used in media queries to apply different styles for different media types/devices. Media queries can be used to check many things, such as: width and height of the viewport. width and height of the device.
+
+15. What can be used to override properties of an element ?
+
+•	How to override !important. A) Add another CSS rule with !important , and either give the selector a higher specificity (adding a tag, id or class to the selector), or add a CSS rule with the same selector at a later point than the existing one. This works because in a specificity tie, the last rule defined wins.
+
+16. How can you select every alternate elements in a list of elements using css?
+The :nth-child(n) selector matches every element that is the nth child of its parent.
+
+17. What is the ranking of selectors with respect to specificity ?
+ID selectors have a higher specificity than attribute selectors. You should always try to use IDs to increase the specificity. A class selector beats any number of element selectors. The universal selector and inherited selectors have a specificity of 0, 0, 0, 0.
+
+18. how can we apply same styles to multiple selectors?
+
+When you group CSS selectors, you apply the same styles to several different elements without repeating the styles in your stylesheet. Instead of having two, three, or more CSS rules that do the same thing (set the color of something to red, for example, you use a single CSS rule that accomplishes the same thing.
+
+19. What are the differences between relative and absolute in CSS?
+position: relative places an element relative to its current position without changing the layout around it, whereas position: absolute places an element relative to its parent's position and changing the layout around it.
+
+
+
+
+
+
+
