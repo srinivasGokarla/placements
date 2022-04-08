@@ -1,3 +1,140 @@
-.App {
+body{
+  background-color: rgb(245, 244, 244);
+}
+.flexx{
+  margin-right: 100px;
+ float: left;
+}
+
+.form-control-sm{
+  width: 200px;
+  margin-right: 20px;
+}
+.mb-2{
+display: inline-block;
+justify-content:space-around;
+margin: 5px;
+
+
+}.stars{
+  width:40%;
+  display: flex;
+  justify-content:space-around;
+  margin: auto;
+ 
+}
+.stars button{
+ 
+   margin: 10px;
+    padding: 5px;
+     width: 70px;
+    border-radius: 5px;
+     font-weight: bold;
+
+}
+.payment{
+  
+  width:40%;
+  display: flex;
+  justify-content:space-around;
+  margin: auto;
+
+}.sortrating{
   text-align: center;
+}
+.payment button{
+margin: 10px;
+padding: 5px;
+width: 100px;
+border-radius: 5px;
+font-weight: bold;
+}.sort{
+ margin-left: 46%;
+ 
+}.sort button{
+
+  margin: 2px;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 100px;
+}
+
+.flexx {
+  border: 2px solid black;
+  margin-left:50px;
+}
+.shadoww{
+
+  width: 500px;
+  height: 220px;
+  padding: 5px;
+  margin: 10px;
+  box-shadow: 0px 0px 8px rgb(0, 0, 0);
+  margin: 20px;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+img{
+  width: 150px;
+  height: 180px;
+  margin-right: 15px;
+}.rating{
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+  width: 40px;
+  padding: 5px;
+  border-radius: 5px;
+}.mainn{
+  /* border: 1px solid black; */
+  margin-left: -5px;
+  display: flex;
+  justify-content: right;
+  width: 500px;
+  padding: 4px;
+  background-color: rgb(248, 220, 220);
+  cursor: pointer;
+ 
+}.name{
+  color: rgb(141, 7, 7);
+  font-weight: bold;
+ 
+}.list{
+  display: flex;
+  justify-content: space-between;
+  
+}.add{
+  color: grey;
+}
+
+.isActive {
+  background-color: teal;
+  border: 2px solid black;
+}.isnotactive{
+  background-color: rgb(217, 235, 235);
+}form legend{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 30px;
+  color: rgb(141, 7, 7);
+}form{
+  margin: 30px;
+}form label{
+  font-weight: 500;
+}form input{
+ border-width: 5px;
+}
+.Rest{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 20px;
+  
 }

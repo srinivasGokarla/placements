@@ -1,12 +1,15 @@
 
-import './App.css';
-import {Restaurant} from  "./Components/Restaurant"
-function App() {
-  return (
-    <div className="App">
-     < Restaurant />
-    </div>
-  );
+import {Restaurant } from './Components/Restaurant'
+
+import './App.css'
+const App = () => {
+  return <>
+  <Restaurant />
+ 
+  </>
 }
 
+
+ 
 export default App;
+
