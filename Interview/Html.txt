@@ -1,0 +1,129 @@
+1. Explain briefly what happens when you hit a url? explain DNS lookup
+
+ans : You enter a URL into a web browser. The browser looks up the IP address for the domain name via DNS. The browser sends a HTTP request to the server. The server sends back a HTTP response
+      Domain name system (DNS) lookups are how end users obtain the websites they search for. It is the way DNS services resolve end-user queries and acquire information related to domains.
+
+
+2. What is a URLs full form? Explain what a url is and the four parts it consists of The protocol in use The hostname of the server The location of the file The arguments to the file   
+
+ans : URL stands for Uniform Resource Locator.
+      he four main components of URLs are the protocol, domain, path, and query.
+      A URL normally locates an existing resource on the Internet. A URL is used when a web client makes a request to a server for a resource.
+
+
+3. What is HTTP protocol?
+
+ans :  As a request-response protocol, HTTP gives users a way to interact with web resources such as HTML files by transmitting hypertext messages between clients and servers. HTTP clients generally use Transmission Control Protocol (TCP) connections to communicate with servers.
+
+
+4. What is TCP Protocol?
+
+ans : TCP stands for Transmission Control Protocol a communications standard that enables application programs and computing devices to exchange messages over a network. It is designed to send packets across the internet and ensure the successful delivery of data and messages over networks.
+
+
+5. Explain all the different HTTP methods?
+
+ans : The primary or most commonly-used HTTP methods are POST, GET, PUT, PATCH, and DELETE. These methods correspond to create, read, update, and delete (or CRUD) operations, respectively.
+
+
+6. What are HTTP headers?
+ 
+ans : HTTP headers let the client and the server pass additional information with an HTTP request or response. An HTTP header consists of its case-insensitive name followed by a colon ( : ), then by its value. Whitespace before the value is ignored.
+
+
+7. What are some HTTP response codes? what does it mean? 2xx, 3xx, 4xx, 5xx ? 
+
+ans : 2xx successful – the request was successfully received, understood, and accepted. 
+      3xx redirection – further action needs to be taken in order to complete the request. 
+      4xx client error – the request contains bad syntax or cannot be fulfilled. 
+      5xx server error – the server failed to fulfil an apparently valid request.
+
+
+8. What does cache control on http response mean?
+
+ans : Cache-control is an HTTP header used to specify browser caching policies in both client requests and server responses. Policies include how a resource is cached, where it's cached and its maximum age before expiring (i.e., time to live).
+
+
+9. What is polling?
+
+ans : Polling is a technique that allows the servers to push information to a client.
+
+
+10. What is long polling?
+
+ans : Long polling is a version of traditional polling that allows the server to send data to a client whenever available.
+
+
+11. What are web sockets?
+
+ans : The WebSocket API is an advanced technology that makes it possible to open a two-way interactive communication session between the user's browser and a server. With this API, you can send messages to a server and receive event-driven responses without having to poll the server for a reply.
+
+
+12. How is web sockets different from HTTP?
+
+ans :  Unlike HTTP, where you have to constantly request updates, with websockets, updates are sent immediately when they are available. WebSockets keeps a single, persistent connection open while eliminating latency problems that arise with HTTP request/response-based methods.
+
+
+13. What is HTTPS?
+
+ans : HTTPS (Hypertext Transfer Protocol Secure) is an internet communication protocol that protects the integrity and confidentiality of data between the user's computer and the site.
+
+
+14. What is Cross Origin Resource Sharing? ( CORS ) Why do we need it?
+
+ans : Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+
+
+15. What does Access-Control-Allow-Origin header do?
+
+ans : The Access-Control-Allow-Origin header is included in the response from one website to a request originating from another website, and identifies the permitted origin of the request.
+
+
+16. What is clickjacking? How do you fix it?
+
+ans : Clickjacking is an attack that tricks a user into clicking a webpage element which is invisible or disguised as another element. This can cause users to unwittingly download malware, visit malicious web pages, provide credentials or sensitive information, transfer money, or purchase products online.
+
+
+17.  What are some performance metrics for your website?
+
+ans : The Top Ten Website Performance Metrics
+      Page Speed. Page speed is one of the most important metrics to be aware of, and it can have a far greater impact than you may even realize. ...
+      Time to Title. ...
+      Time to Start Render. ...
+      Time to Interact. ...
+      DNS Lookup Speed. ...
+      Bounce Rate. ...
+      Requests Per Second. ...
+      Error Rate
+
+18. What does the following term mean? 
+     * Time to first byte,
+     * Page load time   
+
+ans : * Time to First Byte (TTFB) refers to the time between the browser requesting a page and when it receives the first byte of information from the server
+      *  Page load time is the time it takes for a page to load, measured from navigation start to the start of the load event.
+
+
+19.  What do CDN or Content Delivery Networks do? When do you need a CDN?
+
+ans : A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content. A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos.
+
+
+20 . What is the difference between Client Side Rendering and Server Side Rendering?
+
+ans : Client-side rendering manages the routing dynamically without refreshing the page every time a user requests a different route. But server-side rendering is able to display a fully populated page on the first load for any route of the website, whereas client-side rendering displays a blank page first.
+
+
+21. What is Progressive Rendering?
+
+ans : “Progressive Server-Side Rendering — the key to a faster web page is the technique of sequentially rendering parts of the web page on the server-side and send it to the client in portions without waiting for the entire page to be rendered.”
+
+
+22. What is the difference between Preloading and Prefetching resources?
+
+ans : The difference between dns-prefetch and preconnect is dns-prefetch will only do the DNS lookup, while preconnect will do the DNS lookup, TLS negotiation, and the TCP handshake. This means that it avoids an additional 2 RTT once the resource is ready to be downloaded
+
+
+23. What are service workers?
+
+ans : A service worker is a type of web worker. It's essentially a JavaScript file that runs separately from the main browser thread, intercepting network requests, caching or retrieving resources from the cache, and delivering push messages.

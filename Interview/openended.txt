@@ -1,0 +1,40 @@
+1. What are some new things happening in the web?
+
+Ans. Web development is evolving at a breakneck speed every passing year. New website technologies are being discovered regularly as developers explore new ways of innovation.
+some of latest web development trends in 2022.
+Micro Frontends,Virtual Reality,Serverless Architecture,Cloud Computing,Single-Page Applications (SPA),JavaScript Frameworks,Automation Testing,Responsive Websites,Dark Mode, WebAssembly.
+
+2.Explain a project that you have built?
+
+Ans. I have build Healthkart Clone project during the constructive project of masai school, HealthKart is your ideal platform for all nutrition, health and fitness products, where i have played front-end role,
+i have used HTML,CSS and JavaScript in the project and features i have made is Grid display of CartPage,Adress page, Payment page gateway, Wishlist feature
+
+3.Whats something exciting that you have built?
+
+Ans.When I worked for Draftsman that time, i felt very exited to know about what happening the work going back of screen, then i used to research it after i entered masai
+so, while creating web pages i enjoyed alot, when i wanted to build new feature and able to complete it then i feel very excite.
+
+
+4.What are you most excited about?
+
+Ans.When i build simple web pages it become hard for me, and in the process when i tried to build hard pages then the simple pages become easy for me, so in this process building 
+pages and this process excites me more.
+
+5.Why do coding standards matter? What are some patterns you follow?
+
+Ans.Coding standards help in the development of software programs that are less complex and thereby reduce the errors. If programming standards in software engineering are followed, the code is consistent and can be easily maintained.
+This is because anyone can understand it and can modify it at any point in time.
+
+6.How do you go about managing responsive websites?
+Ans. I follow these steps
+-> Set Appropriate Responsive Breakpoints.
+-> Start with a Fluid Grid.
+-> Take touchscreens into consideration.
+-> Use Responsive Images and Videos.
+-> Define Typography.
+-> Use a pre-designed theme or layout to save time.
+-> Test Responsiveness on Real Devices.
+
+7.What do you care about the most when you write software?
+
+Ans.i follow Clarity of code. Clarity of design. Clarity of purpose. 
