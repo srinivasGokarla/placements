@@ -123,7 +123,56 @@
 "reviews": "650",
 "username": "Al Huda",
 "votes": "500"
-        },{
+        },
+        {
+            "address": "South Indian",
+"costforone": "650",
+"image": "https://b.zmtcdn.com/data/reviews_photos/498/377be06967a700d9f615f75f60d11498_1558407027.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+"min": "150",
+ "payment_methods": {
+            "card": false,
+            "cash": true,
+            "upi": false,
+            "all": true
+        },
+"rating": "2.2",
+"reviews": "625",
+"username": "Sri Sai",
+"votes": "700"
+        },
+        {
+            "address": "North Indian, south indian",
+"costforone": "700",
+"image": "https://b.zmtcdn.com/data/reviews_photos/498/377be06967a700d9f615f75f60d11498_1558407027.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+"min": "120",
+ "payment_methods": {
+            "card": false,
+            "cash": true,
+            "upi": false,
+            "all": true
+        },
+"rating": "4.1",
+"reviews": "750",
+"username": "Satyam",
+"votes": "800"
+        },
+        {
+            "address": "North Indian",
+"costforone": "500",
+"image": "https://b.zmtcdn.com/data/reviews_photos/498/377be06967a700d9f615f75f60d11498_1558407027.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+"min": "140",
+ "payment_methods": {
+            "card": false,
+            "cash": true,
+            "upi": false,
+            "all": true
+        },
+"rating": "4.5",
+"reviews": "350",
+"username": "Alpha",
+"votes": "700"
+        },
+        {
             "address": "South Indian",
 "costforone": "400",
 "image": "https://b.zmtcdn.com/data/reviews_photos/498/377be06967a700d9f615f75f60d11498_1558407027.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
@@ -138,6 +187,135 @@
 "reviews": "650",
 "username": "Al Huda",
 "votes": "500"
+        },
+        {
+            "address": "North Indian",
+"costforone": "300",
+"image": "https://b.zmtcdn.com/data/reviews_photos/498/377be06967a700d9f615f75f60d11498_1558407027.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+"min": "150",
+ "payment_methods": {
+            "card": false,
+            "cash": true,
+            "upi": false,
+            "all": true
+        },
+"rating": "2.9",
+"reviews": "650",
+"username": "Hyper",
+"votes": "500"
+        },
+        {
+            "address": "South Indian",
+"costforone": "300",
+"image": "https://images.travelandleisureindia.in/wp-content/uploads/2019/12/Indian-But-Not-Indian-Food-feature.jpg",
+"min": "150",
+ "payment_methods": {
+            "card": false,
+            "cash": true,
+            "upi": false,
+            "all": true
+        },
+"rating": "1.5",
+"reviews": "250",
+"username": "Nicer",
+"votes": "100"
+        },
+        {
+            "address": "South Indian",
+"costforone": "540",
+"image": "https://media-cdn.tripadvisor.com/media/photo-s/04/6f/e1/66/getlstd-property-photo.jpg",
+"min": "100",
+ "payment_methods": {
+            "card": false,
+            "cash": true,
+            "upi": false,
+            "all": true
+        },
+"rating": "2.8",
+"reviews": "350",
+"username": "The Park",
+"votes": "200"
+        },
+        {
+            "address": "South Indian, North Indian",
+"costforone": "900",
+"image": "https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/restaurant%2F664514%2Frestaurant020211210101846.png",
+"min": "250",
+ "payment_methods": {
+            "card": false,
+            "cash": true,
+            "upi": false,
+            "all": true
+        },
+"rating": "4.9",
+"reviews": "950",
+"username": "Eazy Dinner",
+"votes": "900"
+        },
+        {
+            "address": "North Indian",
+"costforone": "600",
+"image": "https://media-cdn.tripadvisor.com/media/photo-s/15/29/1b/fd/tulip-restaurant-green.jpg",
+"min": "110",
+ "payment_methods": {
+            "card": false,
+            "cash": true,
+            "upi": false,
+            "all": true
+        },
+"rating": "4.4",
+"reviews": "750",
+"username": "Tulips",
+"votes": "370"
+        },
+        {
+            "address": "South Indian",
+"costforone": "500",
+"image": "https://imgmedia.lbb.in/media/2019/10/5d957c4eae1db34652e2ddb8_1570077774767.jpg",
+"min": "170",
+ "payment_methods": {
+            "card": false,
+            "cash": true,
+            "upi": false,
+            "all": true
+        },
+"rating": "4.8",
+"reviews": "950",
+"username": "LBB",
+"votes": "800"
+        },
+        {
+            "address": "Korien Indian",
+"costforone": "800",
+"image": "https://chaibisket.com/wp-content/uploads/2019/07/the-square-restaurant-hotel-novotel-varun-beach-beach-road-visakhapatnam-restaurants-5gkcy.jpg",
+"min": "160",
+ "payment_methods": {
+            "card": false,
+            "cash": true,
+            "upi": false,
+            "all": true
+        },
+"rating": "1.8",
+"reviews": "250",
+"username": "Saghar",
+"votes": "50"
+        },
+        {
+            "address": "South Indian,Chinnes",
+"costforone": "300",
+"image": "https://media-cdn.tripadvisor.com/media/photo-s/02/8c/0b/4e/filename-the-square-restaurant.jpg",
+"min": "140",
+ "payment_methods": {
+            "card": false,
+            "cash": true,
+            "upi": false,
+            "all": true
+        },
+"rating": "3.8",
+"reviews": "850",
+"username": "The Square",
+"votes": "200"
         }
+        
     ]
 }
