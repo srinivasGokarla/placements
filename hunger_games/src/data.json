@@ -1,0 +1,141 @@
+[
+      {
+          "categories": "Chamanganj, Kanpur",
+"costforone": "200",
+"image": "https://b.zmtcdn.com/data/pictures/8/2304488/7b4c29869b2923b7850fdc09a034cd0f.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+"min": "250",
+"payment_methods": {
+  "card": false,
+  "cash": false,
+  "upi": true,
+  "all": true
+},
+"rating": "3.6",
+"reviews": "512",
+"Restaurant_name": "Al Baik",
+"votes": "400"
+      },
+      {
+          "categories": "North Indian, Biryani, Fast Food, Desserts",
+"costforone": "300",
+"image": "https://b.zmtcdn.com/data/pictures/2/18209832/dfe641b27dbd33452a97bfbb4747c2f0.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+"min": "220",
+"payment_methods": {
+          "card": true,
+          "cash": false,
+          "upi": false,
+          "all": true
+      },
+"rating": "2.5",
+"reviews": "512",
+"Restaurant_name": "Zyka Restaurant",
+"votes": "400"
+      },
+      {
+          "categories": "Mughlai, North Indian",
+"costforone": "200",
+"image": "https://b.zmtcdn.com/data/pictures/chains/8/2301178/33df3918cabbc5562b77f67a652906e3.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+"min": "50",
+"payment_methods": {
+          "card": true,
+          "cash": false,
+          "upi": false,
+          "all": true
+      },
+"rating": "3.5",
+"reviews": "600",
+"Restaurant_name": "Chingari Family Restaurant",
+"votes": "200"
+      },
+      {
+          "categories": "Mughlai",
+"costforone": "500",
+"image": "https://b.zmtcdn.com/data/pictures/3/19334713/f4b4f7d8066bc98dac217eba0144c4dd.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+"min": "150",
+"payment_methods": {
+          "card": false,
+          "cash": true,
+          "upi": false,
+          "all": true
+      },
+"rating": "4.8",
+"reviews": "500",
+"Restaurant_name": "Tunday Kababi",
+"votes": "300"
+      }, {
+          "categories": "Pizza, Fast Food, Burger",
+"costforone": "300",
+"image": "https://b.zmtcdn.com/data/pictures/5/19104795/166c3fc48ce6e9faf103ab970ef34fcf.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+"min": "350",
+"payment_methods": {
+          "card": false,
+          "cash": true,
+          "upi": false,
+          "all": true
+      },
+"rating": "1.6",
+"reviews": "500",
+"Restaurant_name": "Dominic's Pizza",
+"votes": "400"
+      }, {
+          "categories": "Burger, Fast Food, Beverages",
+"costforone": "500",
+"image": "https://b.zmtcdn.com/data/pictures/1/19119691/e01ffc3a4d1f4a76e63b3250299f4793.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+"min": "200",
+"payment_methods": {
+          "card": false,
+          "cash": false,
+          "upi": true,
+          "all": true
+      },
+"rating": "3.8",
+"reviews": "500",
+"Restaurant_name": "Burger King",
+"votes": "700"
+      }, {
+          "categories": "Burger, Fast Food, Beverages, Desserts",
+"costforone": "500",
+"image": "https://b.zmtcdn.com/data/pictures/5/2300035/9410759d611db9c62c3acc23c1f27e06.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+"min": "450",
+"payment_methods": {
+          "card": true,
+          "cash": false,
+          "upi": false,
+          "all": true
+      },
+"rating": "4.5",
+"reviews": "700",
+"Restaurant_name": "KFC",
+"votes": "550"
+      }, {
+          "categories": "North Indian",
+"costforone": "400",
+"image": "https://b.zmtcdn.com/data/reviews_photos/498/377be06967a700d9f615f75f60d11498_1558407027.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+"min": "150",
+"payment_methods": {
+          "card": false,
+          "cash": true,
+          "upi": false,
+          "all": true
+      },
+"rating": "3.5",
+"reviews": "650",
+"Restaurant_name": "Al Huda",
+"votes": "500"
+      },{
+          "categories": "South Indian",
+"costforone": "400",
+"image": "https://b.zmtcdn.com/data/reviews_photos/498/377be06967a700d9f615f75f60d11498_1558407027.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+"min": "150",
+"payment_methods": {
+          "card": false,
+          "cash": true,
+          "upi": false,
+          "all": true
+      },
+"rating": "3.5",
+"reviews": "650",
+"Restaurant_name": "Al Huda",
+"votes": "500"
+      }
+  ]
