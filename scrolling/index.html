@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <style>
+        body {
+            width: 600px;
+            border: 1px solid red;
+            margin: auto;
+            margin-top:30px;
+        }
+      .content {
+          margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 400px;
+        height: 800px;
+        margin: 0 auto;
+        overflow: auto;
+      }
+
+      .student {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        color: white;
+        height: 50px;
+        margin: 10px;
+        border-radius: 10px;
+        background: green;
+        
+      }
+
+      .loading {
+        width: 200px;
+        margin: 20px auto;
+        text-align: center;
+        display: none;
+      }
+
+      .show {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content"></div>
+    
+    <script src="./scrol.js"></script>
+  </body>
+</html>
