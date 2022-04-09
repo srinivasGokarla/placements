@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import "../App.css";
 import DBJSON from "../data.json";
+import axios from "axios";
+import { Pagination } from "./Pagination";
 
 export const Restaurant = () => {
   // total obj in array.
@@ -9,6 +11,7 @@ export const Restaurant = () => {
   const initialData = restaurant || [];
   const [data, setData] = useState(initialData);
   const [showall, setShowall] = useState(initialData);
+  const [item, setItem] = useState([]);
   const [filterState, setFilterState] = useState({
     method: "all",
     rating: 1,
@@ -89,6 +92,14 @@ export const Restaurant = () => {
   const handlepayment = (method) => {
     setFilterState({ ...filterState, method });
   };
+  function getRestaurant() {
+    fetch("http://localhost:3000/restaurant")
+      .then((data) => data.json())
+      .then((data) => {
+        setFilterState(data);
+        console.log(data);
+      });
+  }
 
 
 
@@ -124,7 +135,21 @@ export const Restaurant = () => {
 
   return (
     <div className="container">
-      <form className="mt-5">
+      <form className="mt-5" 
+      onSubmit={(e) => {
+        e.preventDefault();
+        const data = formData;
+  
+        axios
+          .post("http://localhost:3000/restaurant", data)
+          .then(() => {
+            getRestaurant();
+          })
+          .catch((err) => {
+            console.log("err", err);
+          });
+       
+      }}>
         <legend>Restaurant Details</legend>
         <div class="mb-2">
           <label>User name</label>
@@ -232,6 +257,7 @@ export const Restaurant = () => {
         </div>
       </form>
       <br />
+    
       <h5 className="sortrating">SORT BY RATINGS</h5>
       <div className="stars">
         
@@ -280,6 +306,7 @@ export const Restaurant = () => {
           All
         </button>
       </div>
+      
       <h5 className="sortrating">SORT BY PAYMENT</h5>
       <div className="payment">
         <button
@@ -384,6 +411,7 @@ export const Restaurant = () => {
           }
         )}
       </div>
+     
     </div>
   );
 };

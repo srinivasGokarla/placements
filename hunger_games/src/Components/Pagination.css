@@ -1,0 +1,26 @@
+.active {
+    padding: 10px;
+    background-color: #01b636;
+    color: #13253a ;
+    cursor: pointer;
+}
+
+.inactive { 
+    padding: 10px;
+    background-color: white;
+    color: #13253a ; 
+    cursor: pointer;
+}
+
+#multiple_delete_btn {
+    width: 100px;
+    height: 45px;
+    padding: 5px;
+    color: #13253a ;
+    background-color: #01b636;
+    font-weight: 700;
+    margin-left: 2%;
+    margin-top: -5%;
+    border: 1px solid #13253a;
+    border-radius: 5px;
+}
