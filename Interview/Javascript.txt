@@ -1,0 +1,96 @@
+1. What is hoisting?
+ans:
+Hoisting is a default behavior of moving all the declarations at the top of scope before code execution.
+
+2. What is scoping?
+ans: 
+Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript. The two types of scope are local and global: Global variables are those declared outside of a block. Local variables are those declared inside of a block.
+
+3.How are var, let const different?
+ans:
+ var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared. They are all hoisted to the top of their scope. But while var variables are initialized with undefined , let and const variables are not initialized.
+
+ 4.What are the two main differences in arrow functions?
+ ans:
+ How are arrow functions different?
+Unlike regular functions, arrow functions do not have their own this . The value of this inside an arrow function remains the same throughout the lifecycle of the function and is always bound to the value of this in the closest non-arrow parent function.
+
+5. Does Call apply bind work for arrow functions?
+ans:
+In case of arrow functions our methods: Call/Apply & Bind doesn't work as expected. As the documentation of MDN states: "Since arrow functions do not have their own this, the methods call() or apply() can only pass in parameters.
+
+6. What does call apply bind do?
+ans:
+The call() and apply() are very similar methods. They both execute the bound function on the object immediately. The bind() method does not execute the function right away. Instead, it creates and returns a bound function that can be executed later.
+
+7. What are closures?
+ans:
+ closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
+
+ 8.Write a program to debounce a search bar?
+ ans:The debounce() function forces a function to wait a certain amount of time before running again. The function is built to limit the number of times a function is called. The Send Request() function is debounced. Requests are sent only after fixed time intervals regardless of how many times the user presses the button.
+
+ const debounce = (fn, delay) => {
+  let timer;
+  return () => {
+    if(timer) clearTimeout(timer);
+    timer = setTimeout(fn, delay)
+  }
+}
+
+document.getElementById("mybutton").addEventListener('click', debounce(()=>console.log("Clicked"),1000))
+
+9.Write a program to throttle a search bar?
+ans:Throttling is the act limiting a resource over a set amount of time. For example, a web server may throttle its users by only allowing 10 at a time if it's overloaded. This type of throttle improves performance and can prevent the system from crashing during busy times of the day.
+
+10.What is event bubbling?
+ans:
+Event bubbling is a method of event propagation in the HTML DOM API when an event is in an element inside another element, and both elements have registered a handle to that event. It is a process that starts with the element that triggered the event and then bubbles up to the containing elements in the hierarchy. In event bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements.
+
+11.What is event loop?
+ans:
+JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. This model is quite different from models in other languages like C and Java.
+
+12.Explain promises to a 5 year old, with simple examples?
+
+13. what does async await mean?
+
+ans: 
+An async function is a function declared with the async keyword, and the await keyword is permitted within it. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
+
+14.What does the this keyword mean?
+ans:
+ JavaScript, the this keyword refers to an object. Which object depends on how this is being invoked (used or called). The this keyword refers to different objects depending on how it is used: In an object method, this refers to the object. Alone, this refers to the global object.
+
+ 15.What are classes? what are getters and setters?
+ ans:
+ Getters and setters are used to protect your data, particularly when creating classes. For each instance variable, a getter method returns its value while a setter method sets or updates its value. Given this, getters and setters are also known as accessors and mutators, respectively
+Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes but also have some syntax and semantics that are not shared with ES5 class-like semantics.
+
+ 16.How do you declare private and static variables in classes?
+
+
+ans:
+In its current state, there is no “direct” way to create a private variable in JavaScript.
+Can we declare static variable in JavaScript?
+Static variable in JavaScript: We used the static keyword to make a variable static just like the constant variable is defined using the const keyword
+
+17. What is currying? 
+ans:
+Currying is an advanced technique of working with functions. It’s used not only in JavaScript, but in other languages as well.Currying is a function that accepts multiple arguments
+
+18. 
+
+ans:
+
+let arr = [
+    [1, 2],
+    [3, 4],
+    [5, 6][7, 8, 9],
+    [10, 11, 12, 13, 14, 15]
+];
+let flatArray = [].concat.apply([], arr);
+let flatArray = [].concat(...arr);
+let flatArray = arr.reduce((acc, curVal) => {
+    return acc.concat(curVal)
+}, []);
