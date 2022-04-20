@@ -1,8 +1,11 @@
-import React,{useState} from "react";
+import React,{useState,useEffect} from "react";
 
 
 export const Counter = () => {
     const [counter,setCounter]  = useState(0)
+    useEffect(() => {
+        document.title = `chats(${counter})`
+    })
    
 return (
     <div>
