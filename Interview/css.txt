@@ -56,7 +56,7 @@ The rotate() CSS function defines a transformation that rotates an element aroun
 12. What rule can be used to define animations ? 
 Ans :
 The animation shorthand CSS property applies an animation between styles. It is a shorthand for animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction, animation-fill-mode, and animation-play-state.
-he animation property is specified as one or more single animations, separated by commas.
+the animation property is specified as one or more single animations, separated by commas.
 
 13. When working with attribute selectors, how can you select elements which contain a particular attribute value?
 Ans :

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "../App.css";
 import DBJSON from "../data.json";
 import axios from "axios";
-import { Pagination } from "./Pagination";
+
 
 export const Restaurant = () => {
   // total obj in array.
@@ -141,7 +141,7 @@ export const Restaurant = () => {
         const data = formData;
   
         axios
-          .post("http://localhost:3000/restaurant", data)
+          .post("http://localhost:3001/restaurant", data)
           .then(() => {
             getRestaurant();
           })
