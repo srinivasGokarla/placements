@@ -2,7 +2,7 @@ function runProgram(input) {
     input = input.trim().split("\n")
    let N = Number(input[0]);
    let arr = input[1].trim().split(" ").map(Number)
-   console.log(N,arr)
+   //console.log(N,arr)
    let arr1 = []
    for (i = 0; i < N; i++) {
      arr1.push(i)
@@ -18,7 +18,7 @@ function runProgram(input) {
    console.log(arr1.join(" "));
  
  }
-if (process.env.USER === "srini") {
+if (process.env.USERNAME === "srini") {
   runProgram(`5
   4 5 3 7 1`);
 } else {
