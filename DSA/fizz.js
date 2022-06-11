@@ -23,8 +23,8 @@ function FizzBuzz(n) {
 
 }
 
-if (process.env.USERNAME === "srini") {
-  runProgram(`2
-  1
-  3`);
-}
+
+
+
+
+
