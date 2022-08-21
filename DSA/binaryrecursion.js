@@ -1,4 +1,4 @@
-function runProgram(input) {
+Jifunction runProgram(input) {
     input = input.trim().split("\n")
     var[N,K] = input[0].trim().split(" ").map(Number)
     var arr = input[1].trim().split(" ").map(Number)
@@ -36,9 +36,3 @@ function runProgram(input) {
       read = read.replace(/\n$/, "");
       runProgram(read);
     });
-    process.on("SIGINT", function () {
-      read = read.replace(/\n$/, "");
-      runProgram(read);
-      process.exit(0);
-    });
-  }
